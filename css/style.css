@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .options {
+    margin-bottom: 20px;
+  }
+  
+  .options label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+/* Add this CSS to style the copy icon */
+#copy {
+    padding: 5px;
+  }
+  
+  #copy i {
+    color: #007bff; /* Change color as needed */
+    font-size: 1.2rem;
+  }
+#copy:hover{
+    background: #40dc3b;
+    border:2px solid white;
+    padding: 5px;
+    
+}
